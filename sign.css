@@ -1,0 +1,220 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    background-image: url(Signup\ bg.gif);
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+
+}
+
+
+.container{
+    background-position: center;
+    margin-top: 130px;
+    
+    margin-left: 400px;
+    height: 500px;
+    width: 700px;
+    box-shadow: black 8px 8px 6px;
+    border: solid 5px red;
+    
+}
+
+.login{
+   
+       
+       background: linear-gradient(to bottom, rgb(236, 76, 76) ,rgb(41, 40, 40));
+    
+    background-position: right;
+    
+    
+    height: 100%;
+    width: 350px;
+    margin-left: 350px;
+    /* border-right: solid 4px rgb(177, 34, 206); */
+    /* border-top: solid 4px rgb(177, 34, 206); */
+    
+    
+
+    
+   
+}
+
+.imageholder{
+    
+    /* background-color:rgb(250, 250, 250) ; */
+    /* opacity: 40%; */
+    margin-top: -490px;
+    height: 100%;
+    width: 50%;
+    /* background-image: url(Signup\ bg.gif); */
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+
+
+    
+    
+   
+
+}
+
+.bar{
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    font-family: arial;
+    height: 60px;
+    width: 250px;
+    padding-bottom: -5px;
+    padding-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background:linear-gradient(to right,rgba(238, 82, 225, 0.788),blueviolet) ;
+    
+     */
+     background:linear-gradient(to bottom,rgba(238, 82, 225, 0.788),blueviolet) ;
+     background-color: white;
+     border-top-right-radius: 7px;
+     border-bottom-right-radius:5px;
+margin-top: 15px;
+margin-left: 10px;
+/* border-left: rgb(230, 31, 230)8px solid; */
+box-shadow: rgb(197, 193, 193)5px 7px 6px;
+
+
+
+
+}
+
+
+
+form{
+    padding-left: 50px;
+
+    padding-top: 50px;
+}
+label{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: 20px;
+    color:black;
+}
+input[type=text]{
+    background-color: rgb(206, 201, 201);
+    box-sizing:border-box;
+    margin: 8px 0px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    /* border-bottom: yellow 3px solid; */
+    font-size:large;
+
+
+    
+}
+input[type=password]{
+    background-color: rgb(206, 201, 201);
+    
+    box-sizing:border-box;
+    margin: 8px 0px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    /* border-bottom: yellow 3px solid; */
+    font-size:large;
+    
+}
+
+input[type=email]{
+    background-color: rgb(206, 201, 201);
+    
+    box-sizing:border-box;
+    margin: 8px 0px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    /* border-bottom:black 3px solid; */
+    font-size: large;
+    
+}
+::placeholder{
+    color: black;
+    opacity: 80%;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 0;
+    
+}
+a {
+    
+    margin-right: 7px;
+    background:linear-gradient(to right,rgba(238, 82, 225, 0.788),blueviolet) ;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+
+    color: white;
+    font-size: 30px;
+    font-family: arial;
+    border-radius: 3px;
+    text-decoration: none;
+    box-shadow: rgb(56, 52, 52) 7px 8px 9px;
+    
+    
+}
+/* }
+/* .rocket{
+    margin-left: 700px;
+    margin-top: -200px;
+    /* opacity: 80%; */
+    /* height:300px;
+    width: 400px ;
+    background-image: url(57687.gif); 
+    
+    background-repeat: no-repeat; */
+
+    
+/* }  */
+
+
+
+.btnbox{
+    
+   position: absolute;
+    background-color: rgb(255, 255, 255);
+        height: 200px;
+    width: 350px;
+    margin-top: 290px;
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+} 
+.btnbox a{
+    border-radius: 3px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background:linear-gradient(to right,rgba(238, 82, 225, 0.788),blueviolet) ;
+     margin-left: 100px;
+    color: whitesmoke;
+    font-family: arial;
+    font-weight: 25px;
+    box-shadow: rgb(56, 52, 52) 7px 8px 9px;
+    cursor: pointer;
+}
+
+ a:hover{
+
+    opacity: 80%
+}
+h3{
+    font-family:serif ;
+    font-size: 25px;
+    margin-left: 25px;
+    
+}
